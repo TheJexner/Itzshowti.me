@@ -148,7 +148,7 @@ div.nav
     
     height: 16px;
     margin: 2px;
-    padding: 2px 6px 3px 6px;
+    padding: 8px;
     overflow: visible;
     
     background: url("../images/bg_l.gif") fixed;
@@ -161,7 +161,7 @@ ul.nav
     float: right;
     
     margin: 2px;
-    padding: 2px 6px 2px 6px;
+    padding: 8px;
     
     list-style: none;
     
