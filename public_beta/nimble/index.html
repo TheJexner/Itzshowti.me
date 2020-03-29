@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="index,nofollow">
+        <meta name="description" content="Stop calling him bald/fat.">
+        <title>ITZ SHOWTIME</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="styles/font.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="scripts/page.js"></script>
+        <script src="scripts/banner.js"></script>
+        <script src="scripts/chat.js"></script>
+        <script src="scripts/indicator.js"></script>
+        <script src="scripts/more.js"></script>
+    </head>
+    <body>
+        <noscript>
+            Showtime doesn't work without JavaScript, sorry! If you're using NoScript, please allow itzshowti.me and chatango.com.
+        </noscript>
+        <div class="top">
+            <div class="topBar">
+                <a class="banner" href="javascript:setRandomBanner()"><img id="banner" class="banner" src="banners/beta.png" alt="Banner"></a>
+            </div>
+            <div class="topBar fullWidth">
+                <div class="nav">
+                    <a id="collapse" class="hide" href="javascript:pageCollapse()">-</a>
+                    <a id="expand" class="hide" href="javascript:pageExpand()">+</a>
+                </div>
+                <div class="nav">
+                    <img class="logo" src="images/logo.gif" alt="Logo">
+                    <img id="icon" class="icon" src="images/gundog.gif" alt="Gundog">
+                </div>
+                <ul class="nav">
+                    <li>Links<img class="drop" src="images/drop.gif" alt="Banner">
+                        <ul>
+                            <li><a href="banners/" target="_blank">Banner List</a></li>
+                            <li><a href="guide/" target="_blank">Stream Guide</a></li>
+                            <li><a href="steam/" target="_blank">Steam Community</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav">
+                    <li>Chat<img class="drop" src="images/drop.gif" alt="Banner">
+                        <ul>
+                            <li><label><input type="radio" value="html5" name="chat" onchange="chatSwitch()"><a name="html5" href="chat/html5.html" target="chat">HTML5</a></label></li>
+                            <li><label><input type="radio" value="flash" name="chat" onchange="chatSwitch()"><a name="flash" href="chat/flash.html" target="chat">Flash</a></label></li>
+                            <li><label><input type="radio" value="irc" name="chat" onchange="chatSwitch()"><a name="irc" href="chat/irc.html" target="chat">IRC</a></label></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:chatPopout()">Popout</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a id="mainLink" href="video/main.html" target="video">Main</a></li>
+                    <li class="video"><a href="video/dual.html" target="video">+</a></li>
+                    <li class="video"><a id="movieLink" href="video/movies.html" target="video">Movies</a></li>
+                    <li><span id="moreLink">More</span><img class="drop" src="images/drop.gif" alt="Banner">
+                        <ul id="more">
+                            <li><a id="pissLink" href="video/marathon.html" target="video">Marathon</a></li>
+                            <li><a id="hitboxLink" href="video/hitbox.html" target="video">Hitbox</a></li>
+                            <li><hr></li>
+                            <li><input id="twitchBox" type="text" placeholder="twitch.tv" title="Type the name of any Twitch.tv channel here and press enter"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <iframe name="content" src="content.html" allowfullscreen></iframe>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <title>ITZ MOVIE TIME</title>
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" href="../styles/font.css">
+        <link rel="stylesheet" href="../styles/video.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="//lib.itzshowti.me/js-cookie/js.cookie-2.1.4.min.js"></script>
+        <script src="//lib.itzshowti.me/sldp/sldp-v2.12.2.min.js"></script>
+    </head>
+    <body>
+        <div class="top">Movie Channel</div>
+        <div id="player" class="sldp-video"></div>
+
+        <script type="text/javascript">
+          document.addEventListener("DOMContentLoaded", initPlayer);
+
+          function initPlayer(){
+            sldpPlayer = SLDP.init({
+              container:          'player',
+              stream_url:         "ws://live.itzshowti.me:8081/nimble/movies",
+              initial_resolution: '720p',
+              buffering:          500,
+              autoplay:           true,
+              height:             parent,
+              width:              parent
+            });
+          };
+
+          function removePlayer(){
+            sldpPlayer.destroy()
+          }
+        </script>
+    </body>
+</html>

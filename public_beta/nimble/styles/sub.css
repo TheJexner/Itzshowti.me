@@ -1,0 +1,108 @@
+/*
+ * Sub-Page Style
+ */
+html, body
+{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+
+    background: url('../images/bg.gif') fixed;
+    
+    font-family: BMmini;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #3A3B43;
+}
+
+div
+{
+    box-sizing: border-box;
+    width: 60%;
+    margin: 12px auto 12px auto;
+    padding: 12px;
+	
+    text-align: left;
+    
+    border-radius: 6px;
+    background: url('../images/bg_l.gif') fixed;
+}
+
+table
+{
+    margin: auto;
+    width: 75%;
+}
+
+th
+{
+    text-align: center;
+    font-weight: normal;
+    color: #FFFF00;
+}
+
+td
+{
+    padding: 2px 8px 2px 8px;
+    
+    border-radius: 6px;
+    background: url('../images/bg.gif') fixed;
+}
+
+h1
+{
+    margin: 0;
+    padding: 0;
+    
+    font-size: 32px;
+    color: #FFFF00;
+}
+
+b
+{
+    font-weight: normal;
+    color: #FFFF00;
+}
+
+a:link
+{
+    transition: 0.25s;
+    
+    color: #d86ac2;
+    text-decoration: none;
+    
+    cursor: pointer;
+}
+
+a:visited
+{
+    color: #d86ac2;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+input.copy
+{
+    margin: 2px 0 4px 0;
+    
+    font-family: BMmini;
+    font-size: 16px;
+    color: #FF0;
+    
+    background: url("../images/bg_l.gif") fixed;
+    border: 2px inset #FFF;
+    border-radius: 6px;
+    text-shadow: 2px 2px #3A3B43;
+    text-align: center;
+}

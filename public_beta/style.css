@@ -1,0 +1,65 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    font-family: BMmini;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #3A3B43;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: url('bg.gif') fixed;
+}
+
+div
+{
+    position: fixed;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin-left: -206px;
+    padding: 6px;
+    background: url('bg_l.gif') fixed;
+    border-radius: 6px;
+}
+
+p.center
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+a:link
+{
+    color: #d86ac2;
+    text-decoration: none;
+    transition: color 0.25s, text-shadow 0.25s;
+}
+
+a:visited
+{
+    color: #d86ac2;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@font-face
+{
+    font-family: BMmini;
+    src: url('BMmini.TTF');
+}
