@@ -1,0 +1,14 @@
+/*
+ * VideoJS Style
+ */
+.video-js .vjs-control-bar
+{
+	height: 32px;
+
+	background: url('../images/bg_l.gif');
+}
+
+.video-js .vjs-progress-control
+{
+	visibility: hidden;
+}
