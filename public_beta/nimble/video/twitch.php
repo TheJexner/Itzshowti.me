@@ -14,7 +14,7 @@ $channel = filter_input(INPUT_GET, "channel", FILTER_SANITIZE_STRING);
     </head>
     <body>
 <?php   if (!empty($channel)): ?>
-        <script src="http://player.twitch.tv/js/embed/v1.js"></script>
+        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
         <div id="twitchplayer" class="twitch"></div>
         <script type="text/javascript">
             var options = 

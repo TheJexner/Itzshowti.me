@@ -30,8 +30,8 @@
         {
             requests.push($.ajax({
                 type: "GET",
-                url: "https://api.twitch.tv/kraken/streams/" + object.channel,
-                data: { client_id: "e15bugwgbe6pj0mh9fdyo12dfl43gjv" },
+                url: "https://api.twitch.tv/helix/streams/" + object.channel,
+                data: { "Client-ID": "e15bugwgbe6pj0mh9fdyo12dfl43gjv" },
                 dataType: "json",
                
                 success: function(json)
